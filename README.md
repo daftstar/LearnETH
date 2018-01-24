@@ -1,0 +1,1 @@
+learning some ethereum and smart contracts 
