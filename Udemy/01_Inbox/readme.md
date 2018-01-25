@@ -40,6 +40,7 @@ install libraries
 npm install --save mocha ganache-cli web3@1.0.0-beta.26
 
 # Architecture
+```
 
 							Solidity Compiler
 ___________________	| ___________________
@@ -51,4 +52,5 @@ Deploy																	|
 |																				|
 |																				|
 Contract Instance <------------------- Web3
-Ganache / TestRPC								
+Ganache / TestRPC		
+```						
