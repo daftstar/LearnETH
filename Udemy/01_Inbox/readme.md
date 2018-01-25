@@ -1,4 +1,4 @@
-Commands run to build this:
+## Commands run to build this:
 
 1) create directory
 2) npm init
@@ -7,7 +7,7 @@ Commands run to build this:
 5) package.json created
 
 
-Directory structure:
+## Directory structure:
 
 contracts
 	- inbox.sol
@@ -28,3 +28,27 @@ Add solidity compiloer
 ____
 
 node compile.js (in home directory)
+
+____
+create Ganache / TestRPC (old name of library
+Utilize Web3 to see what's happening inside contract
+
+
+----
+install libraries
+
+npm install --save mocha ganache-cli web3@1.0.0-beta.26
+
+# Architecture
+
+							Solidity Compiler
+___________________	| ___________________
+|																				|
+Bytecode																ABI
+|																				|
+|																				|
+Deploy																	|
+|																				|
+|																				|
+Contract Instance <------------------- Web3
+Ganache / TestRPC								
