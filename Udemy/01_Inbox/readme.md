@@ -48,7 +48,7 @@ npm install --save truffle-hdwallet-provider
 
 
 ## Architecture
-```
+<!--
 				Solidity Compiler
 _____________	| _____________
 |														|
@@ -60,14 +60,14 @@ Deploy											|
 |														|
 Contract Instance <------ Web3
 Ganache / TestRPC		
-```						
+-->
 
 
 ## Mocha structure
-```
+<!--
 						1) Mocha Starts
 beforeEach	2) Deploy New contract
 it					3) Manipulate Contract
 it					4) Make an assertion about the contract
 						5) Back to step 2
-```
+ -->
