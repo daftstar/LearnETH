@@ -39,7 +39,15 @@ install libraries
 
 npm install --save mocha ganache-cli web3@1.0.0-beta.26
 
-# Architecture
+----
+install truffle hd wallet provider
+npm install --save truffle-hdwallet-provider
+
+
+
+
+
+## Architecture
 ```
 				Solidity Compiler
 _____________	| _____________
@@ -56,8 +64,10 @@ Ganache / TestRPC
 
 
 ## Mocha structure
+```
 						1) Mocha Starts
 beforeEach	2) Deploy New contract
 it					3) Manipulate Contract
 it					4) Make an assertion about the contract
 						5) Back to step 2
+```
