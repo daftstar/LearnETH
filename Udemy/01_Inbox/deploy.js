@@ -5,7 +5,7 @@ const Web3 = require ('web3');
 const {interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'passphrase goes here',
+  'message olive rhythm denial ranch elegant history stumble logic uncover gesture pear',
   'https://rinkeby.infura.io/TnblgSkvYCu1ezzghvkS'
 );
 
